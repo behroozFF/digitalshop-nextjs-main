@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import {
-  Card,
+  Card, 
   CardHeader,
   CardContent,
   CardFooter,
@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { GalleryThumbnails, Heart } from 'lucide-react';
 
 const ProductItem = (props: { product: any }) => {
-  const { product } = props;
+  const { product } = props;  /* Destructure the product prop */
 
   return (
     <Card className="w-[400px] transform transition-transform duration-300 hover:scale-105">

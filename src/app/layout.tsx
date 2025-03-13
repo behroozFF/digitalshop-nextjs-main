@@ -10,9 +10,11 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  children,  //slot default for children
+  ads, //slot for ads
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode;  
+  ads: React.ReactNode; 
 }>) {
   return (
     <html lang="en">
@@ -30,7 +32,9 @@ export default function RootLayout({
             </div>
           </header>
           <div className="px-20 mt-30">{children}</div>
-        </main>
+
+          <div className="my-10 mx-auto flex justify-center">{ads}</div>
+        </main> 
         <footer className="bg-black w-full h-10 text-white flex items-center justify-center">
           <p>&copy; 2025 JS with Behrouz. All rights reserved.</p>
         </footer>

@@ -1,9 +1,5 @@
 import React from 'react';
-
-// Define a simple ProductList component directly in this file
-const ProductList = () => {
-  return <div>productlist</div>;
-};
+import ProductList from '../components/ProductList';
 
 function ProductListView() {
   return (

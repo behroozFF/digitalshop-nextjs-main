@@ -1,11 +1,14 @@
-export const DATA = [
+export const Data = [
   {
     id: 1,
     name: 'iphone 16',
     category: 'MOBILE',
     price: 1200,
     quantity: 10,
-    images: [{ image: '/mock/1.webp' }, { image: '/mock/2.jpeg' }],
+    images: [
+      { image: '/mock/1.webp' },
+      { image: '/mock/2.jpeg' }
+    ],
   },
   {
     id: 2,
