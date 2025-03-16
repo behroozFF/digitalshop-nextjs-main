@@ -3,12 +3,13 @@ import * as React from 'react';
 
 import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
-import { Data } from '@/modules/products/mock/products';
+import { Data } from '@/modules/products/mocks/products';
 import { useSearchParams } from 'next/navigation';
 
 function CatalogList() {
   const params = useSearchParams();
   const id = params.get('id');
+  //console.log(id)
   // id += 1;
   //getImageByPrductId(id)
   const images = Data[0].images;

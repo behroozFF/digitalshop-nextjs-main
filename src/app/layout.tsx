@@ -33,7 +33,7 @@ export default function RootLayout({
             </div>
           </header>
           <div className="px-20 mt-30">{children}</div>
-          <div className="my-10 mx-auto flex justify-center">{ads}</div>
+      {/*     <div className="my-10 mx-auto flex justify-center">{ads}</div> */}
         </main> 
         <footer className="bg-black w-full h-10 text-white flex items-center justify-center">
           <p>&copy; 2025 JS with Behrouz. All rights reserved.</p>
