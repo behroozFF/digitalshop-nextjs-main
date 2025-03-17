@@ -11,7 +11,7 @@ function welcome() {
         <MonitorSmartphone />
         <h1 className="text-2xl font-bold text-gray-800">Digital Shop</h1>
       </div>
-      <Button asChild className="mt-6" variant={'destructive'}>
+      <Button asChild className="mt-6" variant={'default'}>
         <Link href="/products">Go to products</Link>
       </Button>
     </div>

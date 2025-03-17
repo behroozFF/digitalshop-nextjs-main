@@ -1,6 +1,5 @@
 'use client';
 import * as React from 'react';
-
 import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { Data } from '@/modules/products/mocks/products';
@@ -9,6 +8,7 @@ import { useSearchParams } from 'next/navigation';
 function CatalogList() {
   const params = useSearchParams();
   const id = params.get('id');
+  console.log(params)
   //console.log(id)
   // id += 1;
   //getImageByPrductId(id)
