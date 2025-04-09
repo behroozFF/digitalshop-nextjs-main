@@ -4,12 +4,12 @@ import { prisma } from "@/lib/prisma"
 
 
             /* ProductListView.tsx */
-/* export const getProducts = async () => {
+ export const getProducts = async () => {
 
    const result = await prisma.product.findMany({include: {images: true,},});  
    console.log(result);
    return result;
-}  */
+}  
 
             /* api/product/route.ts */
 export const getProductsAPI = async () => {

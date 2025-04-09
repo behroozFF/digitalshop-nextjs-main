@@ -2,8 +2,9 @@ import React from 'react';
 import ProductItem from './ProductItem';
 import { ProductsWithImages } from '@/types';
 
-                     /* ProductListView.tsx */
+                     /* modules/products/components ProductListView.tsx */
 function productList(props: {products: ProductsWithImages[]}) {
+                                  /* ProductsWithImages از قدرت پریزما استفاده کردم   */
 
   //destructuring
   const {products} = props;
